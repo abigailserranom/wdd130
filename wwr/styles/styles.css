@@ -227,3 +227,80 @@ nav {
     }
 }
 /* Rivers Page CSS starts here */
+.container{
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    border: 10px solid #D4AC0D;
+    overflow: hidden;
+}
+#slider, #slider2, #slider3 {
+    overflow: hidden;
+}
+#slider figure, #slider2 figure, #slider3 figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation : 15s slider infinite;
+}
+#slider figure img, #slider2 figure img, #slider3 figure img {
+    float: left;
+    width: 20%;
+}
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    20%{
+        left: 0;        
+    }
+    25%{
+        left: -100%;        
+    }
+    45%{
+        left: -100%;        
+    }
+    50%{
+        left: -200%;        
+    }
+    70%{
+        left: -200%;        
+    }
+    75%{
+        left: -300%;        
+    }
+    95%{
+        left: -300%;        
+    }
+    100%{
+        left: -400%;        
+    }
+}
+.salmon-river, .deso-river, .grand-canyon {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+
+}
+.Utah, .Idaho, .Arizona {
+    font-family: Pompiere, Garamond, sans-serif;
+    color: #396E94;
+    font-size: 1.5em;
+    text-align: center;
+}
+.para {
+    font-family: Viga , Verdana , sans-serif;
+    font-size: 20px;
+    text-align: center;   
+}
+.Utah {
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
+.Arizona {
+    margin-top: 25px;
+}
+.Idaho {
+    margin-top: -25px;
+    margin-bottom: 100px;
+}
