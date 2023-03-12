@@ -239,7 +239,6 @@ nav {
 .salmon-river, .deso-river, .grand-canyon {
 display: grid;
 grid-template-columns: repeat(2, 1fr);
-
 }
 .Utah, .Idaho, .Arizona {
     font-family: Pompiere, Garamond, sans-serif;
