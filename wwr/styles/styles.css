@@ -177,7 +177,6 @@ nav {
     grid-row: 1/2;
     margin-top: 100px;
 }
-
 .card-img:hover {
     opacity: .6;
     transform: scale(1.1);
