@@ -240,7 +240,7 @@ h2 {
     text-decoration: underline;
 }
 /* Oslo Media Query */
-@media only screen and (max-device-width: 1366px) {
+@media only screen and (max-width: 1366px) {
     .parallax {
       background-attachment: scroll;
     }
