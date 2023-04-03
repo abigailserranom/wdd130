@@ -277,10 +277,10 @@ div.desc{
     border-radius: 25px;
     overflow: hidden;
 }
-#slider {
+#slider, #slider2 {
     overflow: hidden;
 }
-#slider figure {
+#slider figure, #slider2 figure {
     position: relative;
     width: 500%;
     margin: 0;
@@ -289,7 +289,7 @@ div.desc{
     
     
 }
-#slider figure img{
+#slider figure img, #slider2 figure img{
     float: left;
     width: 20%;
     object-fit: fill;
