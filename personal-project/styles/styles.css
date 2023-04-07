@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Space+Mono&display=swap');
 
-main {
-    display: grid;
-}
-
 header {
     background-color: #ea9e7f;
     display: grid;
@@ -20,11 +16,6 @@ body {
     background-color: #ffedcd;
 }
 
-.home-grid {
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-}
-
 .logo {
     width: 250px;
     margin-left: 50px;
@@ -36,13 +27,6 @@ body {
     top: 50%;
     transform: translateY(-50%);
     text-align: center;
-}
-
-.content h1 {
-    font-family: "Concert One", Garamond, sans-serif;
-    color: #a1b7c1;
-    font-size: 80px;
-    margin-top: 20px;
 }
 
 .container h3 {
@@ -86,7 +70,6 @@ nav a:hover {
     justify-content: center;
 }
 
-
 .gallery {
     display: flex;
     align-items: center;
@@ -121,7 +104,7 @@ nav a:hover {
 }
 
 .img-box:nth-child(4) {
-    background: url(../images/ulriken.jpg);
+    background: url(../images//PXL_20220913_160706294.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -228,7 +211,7 @@ h2 {
     font: 35px "Concert One";
     padding-top: 50px;
 }
-.para, .para1, .para2, .para3 {
+.para, .para1, .para2, .para3, .para4, .para5, .para6 {
     font-size: 22px;
 }
 .link {
@@ -250,24 +233,6 @@ h2 {
     display: flex;
     align-items: center;
 }
-div.gallery{
-    margin: 5px;
-    border: 2px solid #ea9e7f; 
-    float: left;
-    width: 180px;
-}
-div.gallery:hover{
-    border: 2px solid #a1b7c1;
-}
-div.gallery img{
-    width: 100%;
-    height: auto;
-    
-}
-div.desc{
-    padding: 15px;
-    text-align: center;
-}
 
 .container2{
     width: 500px;
@@ -285,9 +250,7 @@ div.desc{
     width: 500%;
     margin: 0;
     left: 0;
-    animation : 15s slider infinite;
-    
-    
+    animation : 15s slider infinite;  
 }
 #slider figure img, #slider2 figure img{
     float: left;
@@ -325,7 +288,6 @@ div.desc{
     }
 }
 
-
 /* Oslo Media Query */
 @media only screen and (max-width: 1366px) {
     .parallax {
@@ -333,8 +295,8 @@ div.desc{
     }
 }
 /* Bergen Media Query */
-@media only screen and (max-width: 700px) {
-    .responsive {
+@media only screen and (max-width: 1366px) {
+    .slider1, .slider2 {
       width: 49.99999%;
       margin: 6px 0;
     }
